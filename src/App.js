@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from './components/layouts/layout';
 
 function App() {
   return (
     <div className="App">
-     <h1>Food App</h1>
+      <Layout/>
     </div>
   );
 }
