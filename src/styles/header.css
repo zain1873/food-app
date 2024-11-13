@@ -1,0 +1,13 @@
+.navbar-brand h1 {
+  color: var(--primary);
+
+}
+.navbar-brand i {
+  font-size: 30px;
+  color: var(--primary);
+}
+.navbar { 
+  background-color: var(--dark) !important;
+}
+
+
