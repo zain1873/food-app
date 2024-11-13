@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+    <nav className="navbar navbar-expand-lg p-3">
       <Link to="/" className="navbar-brand d-flex align-items-center p-0">
         <i className="fa-solid fa-utensils me-3"></i>
         <h1 className="m-0">Restoran</h1>
@@ -20,7 +20,7 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <div className="navbar-nav ms-auto py-0 pe-4">
-          <Link to="/" className="nav-item nav-link active">Home</Link>
+          <Link to="/" className="nav-item nav-link">Home</Link>
           <Link to="/about" className="nav-item nav-link">About</Link>
           <Link to="/service" className="nav-item nav-link">Service</Link>
           <Link to="/menu" className="nav-item nav-link">Menu</Link>

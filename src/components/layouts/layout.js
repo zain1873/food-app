@@ -6,14 +6,11 @@ import Footer from "../layouts/footer";
 
 function layout( {children} ) {
   return (
-    <div>
       <>
       <Header/>
       <div> {children} </div>
       <Footer/>
       </>
-      
-    </div>
   )
 }
 
