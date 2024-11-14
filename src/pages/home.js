@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Services from '../components/services';
 import AboutUs from '../components/about';
 import Reservation from '../components/reservation';
+import Testimonial from '../components/testimonials';
 
 
 
@@ -46,6 +47,7 @@ function Home() {
       <Services/>
       <AboutUs/>
       <Reservation/>
+      <Testimonial/>
 
     </Layout>
   
