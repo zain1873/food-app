@@ -3,6 +3,9 @@ import Layout from '../components/layouts/layout';
 import "../styles/home.css";
 import heroImage from '../assets/img/hero.png';
 import { Link } from 'react-router-dom';
+import Services from '../components/services';
+import AboutUs from '../components/about';
+import Reservation from '../components/reservation';
 
 
 
@@ -39,6 +42,10 @@ function Home() {
         </div>
         </div>
       </div>
+
+      <Services/>
+      <AboutUs/>
+      <Reservation/>
 
     </Layout>
   
