@@ -1,0 +1,26 @@
+@media only screen and (max-width:992px) {
+    .navbar-toggler {
+        color: #fff;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        background-color: var(--dark);
+        width: 100%;
+        transition: all 0.3s ease-in;
+        z-index: 10000;
+    }
+    .navbar-nav .nav-item {
+        padding:12px 20px;
+    }
+    .navbar-nav {
+        height: calc(100vh - 64px);
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        overflow-y: auto;
+    }
+}

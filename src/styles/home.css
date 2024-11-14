@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
 } 
 .home-banner h1 {
   font-weight: bold;
@@ -28,5 +29,6 @@
   height: 500px;
   width: 500px;
 }
+
 
 

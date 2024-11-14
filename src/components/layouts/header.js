@@ -33,8 +33,11 @@ function Header() {
             </div>
           </div>
           <Link to="/contact" className="nav-item nav-link">Contact</Link>
+          
+          <Link to="/booking" className="btn order_now py-2 px-4">Book A Table</Link>
+        
+
         </div>
-        <Link to="/booking" className="btn order_now py-2 px-4">Book A Table</Link>
       </div>
     </nav>
   );
